@@ -30,6 +30,7 @@ df6: drops['age','eligible', 'salary', 'contact','education', 'marital', 'tag', 
 | df4       | 0.620038    | 0.368729   | 603  | 2779 |
 | df5       | 0.661626    | 0.372399   | 537  | 3424 |
 | df6       | 0.583491    | 0.360738   | 661  | 2682 |
+| df4+campg | 0.642092    | 0.372000   | 568  | 2951 |
 
 ## Feautures engineering
 - Column job: it was grouped in two diffrent ways, first grouping it's values according to the yes/no ratio of each and then according to job
