@@ -15,11 +15,17 @@ These correlations were proven to be codependent through variable analysis.
 
 ## Columns variations
 All variations drop['duration','campaign'], columns belonging to the current campign.
+
 df1: drops['age','eligible', 'salary', 'education', 'marital', 'tag', 'day', 'pdays','pcampaign', 'y']
+
 df2: drops['age_group','eligible', 'salary', 'education', 'marital', 'tag', 'day', 'pdays','pcampaign', 'y']
+
 df3: drops['age','eligible', 'salary', 'marital-education', 'tag', 'day', 'pdays','pcampaign', 'y']
+
 df4: drops['age','eligible', 'salary', 'marital-education', 'education', 'tag', 'day', 'pdays','pcampaign', 'y']
+
 df5: drops['age','eligible', 'job', 'education', 'marital', 'tag', 'day', 'pdays','pcampaign', 'y']
+
 df6: drops['age','eligible', 'salary', 'contact','education', 'marital', 'tag', 'day', 'pdays','pcampaign', 'y']
 
 | Varation  | Recall_test | pr auc     | FN   | FP   |
