@@ -28,15 +28,15 @@ df5: drops['age','eligible', 'job', 'education', 'marital', 'tag', 'day', 'pdays
 
 df6: drops['age','eligible', 'salary', 'contact','education', 'marital', 'tag', 'day', 'pdays','pcampaign', 'y']
 
-| Varation  | Recall_test | pr auc     | FN   | FP   |
-| --------- |:-----------:| ----------:| ----:| ----:|
-| df1       | 0.654064    | 0.370697   | 549  | 3206 |
-| df2       | 0.644612    | 0.370736   | 564  | 3094 |
-| df3       | 0.657845    | 0.342032   | 726  | 2455 |
-| df4       | 0.620038    | 0.368729   | 603  | 2779 |
-| df5       | 0.661626    | 0.372399   | 537  | 3424 |
-| df6       | 0.583491    | 0.360738   | 661  | 2682 |
-| df4+campg | 0.642092    | 0.372000   | 568  | 2951 |
+| Varation  | Recall_test |   pr auc |   FN |   FP |
+| --------- | :---------: | -------: | ---: | ---: |
+| df1       |  0.654064   | 0.370697 |  549 | 3206 |
+| df2       |  0.644612   | 0.370736 |  564 | 3094 |
+| df3       |  0.657845   | 0.342032 |  726 | 2455 |
+| df4       |  0.620038   | 0.368729 |  603 | 2779 |
+| df5       |  0.661626   | 0.372399 |  537 | 3424 |
+| df6       |  0.583491   | 0.360738 |  661 | 2682 |
+| df4+campg |  0.642092   | 0.372000 |  568 | 2951 |
 
 ## Feautures engineering
 - Column job: it was grouped in two diffrent ways, first grouping it's values according to the yes/no ratio of each and then according to job
@@ -54,3 +54,7 @@ Since the data set is unbalanced, oversampling and undersampling techniques were
 
 ## Models
 The completely discarded models because of its preformance are SVM and KNN. The chosen models to try diffrent hyperparameters tunning are Random Forest & XGBoost Classification.
+
+## Branches
+
+
