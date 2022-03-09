@@ -104,7 +104,7 @@ df5: drops['age','eligible', 'job', 'education', 'marital', 'tag', 'day', 'pdays
 df6: drops['age','eligible', 'salary', 'contact','education', 'marital', 'tag', 'day', 'pdays','pcampaign', 'y']
 
 
-# Feautures engineering
+# Feauture Engineering
 - Column job: it was grouped in two diffrent ways, first grouping it's values according to the yes/no ratio of each and then according to job
 similarities. In both cases, the high correlation with salary remained and and the preformance with the new created column was lower than df5.
 - Column day: the days were grouped into weeks but didn't offer any improvement.
@@ -119,7 +119,7 @@ Since the data set is unbalanced, oversampling and undersampling techniques were
 - One sided selection: thoughfull undersampling of the majority class. Diffrent amount of neighbors were proven.
 
 # Models
-The completely discarded models because of its preformance are SVM and KNN. The chosen models to try diffrent hyperparameters tunning are Random Forest & XGBoost Classification.
+The completely discarded models because of its preformance are SVM and KNN. The chosen models to try diffrent hyperparameters tuning are Random Forest & XGBoost Classification.
 
 # Results 
 ## Random Forest
@@ -197,6 +197,9 @@ The completely discarded models because of its preformance are SVM and KNN. The 
 **df0_duration corresponds to benchmarking**
 
 More XGBoost results in the previosly mentioned branches.
+
+## Model Application
+To try the chosen model real predictions were made using examples. Note that the threshold is set by default and in a real case application this should be set according to the business objective.
 
 
   
