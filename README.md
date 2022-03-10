@@ -104,7 +104,7 @@ df5: drops['age','eligible', 'job', 'education', 'marital', 'tag', 'day', 'pdays
 df6: drops['age','eligible', 'salary', 'contact','education', 'marital', 'tag', 'day', 'pdays','pcampaign', 'y']
 
 
-# Feauture Engineering
+# Feature Engineering
 - Column job: it was grouped in two diffrent ways, first grouping it's values according to the yes/no ratio of each and then according to job
 similarities. In both cases, the high correlation with salary remained and and the preformance with the new created column was lower than df5.
 - Column day: the days were grouped into weeks but didn't offer any improvement.
