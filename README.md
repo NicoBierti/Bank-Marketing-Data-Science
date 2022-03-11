@@ -194,6 +194,7 @@ The completely discarded models because of its preformance are SVM and KNN. The 
 | df0_xgb_1    | 0.835494     | 0.838689    | 0.171653  | 0.651206 | 0.397953 | 256 | 6423 | check notebook  |
 | df0_xgb_2    | 0.791194     | 0.783869    | 0.195998  | 0.678901 | 0.407330 | 343 | 5103 | check notebook  |
 | df0_duration | 0.904646     | 0.897921    | 0.340991  | 0.833990 | 0.551135 | 162 | 2754 | check notebook  |
+
 **df0_duration corresponds to benchmarking**
 
 More XGBoost results in the previosly mentioned branches.
